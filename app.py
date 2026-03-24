@@ -128,7 +128,7 @@ with st.sidebar:
         mysql_host = st.text_input("Host", value="localhost", placeholder="localhost")
         mysql_port = st.number_input("Port", value=3306, min_value=1, max_value=65535)
         mysql_user = st.text_input("Username", value="root", placeholder="root")
-        mysql_password = st.text_input("Password", value="Admin", type="password", placeholder="your password")
+        mysql_password = st.text_input("Password", value="Paste_Password_Here", type="password", placeholder="your password")
         mysql_database = st.text_input("Database Name", value="uber", placeholder="your_database_name")
 
         if st.button("🔗 Connect to MySQL", use_container_width=True):
